@@ -1,0 +1,30 @@
+{
+  "name": "gulp-fehelper",
+  "version": "1.0.0",
+  "description": "feHelper codecompress advanced",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackMao/gulp-feHelper.git"
+  },
+  "keywords": [
+    "fe-helper",
+    "code-mix"
+  ],
+  "author": "blackMao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackMao/gulp-feHelper/issues"
+  },
+  "homepage": "https://github.com/blackMao/gulp-feHelper#readme",
+  "dependencies": {
+    "javascript-obfuscator": "^0.14.3",
+    "jfogs": "0.0.15",
+    "q": "^1.5.1",
+    "request": "^2.85.0",
+    "through2": "^2.0.3"
+  }
+}
