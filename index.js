@@ -63,12 +63,7 @@ function compressJs(file, encode, cb, options) {
 	var contents = file.contents.toString(encode);
 
 	if(options.mix) {
-		utils.postFeHelper({
-	        language: options.language,
-	        content: contents
-	    }).then(function(content){
-	        return utils.jfogsCompile(content, options.jfogs);
-	    }).then(function(content){
+	    utils.jfogsCompile(contents, options.jfogs).then(function(content){
 	        return utils.jsObCompile(content, options.jObfuscator);
 	    }).then(function(content){
 	        file.contents = new Buffer(content, encode);
