@@ -9,17 +9,22 @@ var jfogsOpt = {
 
 var jsObOpt = {
     compact: true,
-    controlFlowFlattening: true,
-    controlFlowFlatteningThreshold: 0.75,
     debugProtection: false,
     debugProtectionInterval: false,
     disableConsoleOutput: false,
     rotateStringArray: true,
-    selfDefending: false,
+    selfDefending: true,
     stringArray: true,
     stringArrayEncoding: 'base64',
     stringArrayThreshold: 0.75,
-    unicodeEscapeSequence: false
+    unicodeEscapeSequence: false,
+
+    controlFlowFlattening: true,
+    controlFlowFlatteningThreshold: 0.75,
+    deadCodeInjection: false,
+    deadCodeInjectionThreshold: 0.4,
+    renameGlobals: false,
+    transformObjectKeys: true
 };
 
 /**
