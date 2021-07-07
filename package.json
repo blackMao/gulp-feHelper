@@ -1,6 +1,6 @@
 {
   "name": "gulp-fehelper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "feHelper codecompress advanced",
   "main": "index.js",
   "scripts": {

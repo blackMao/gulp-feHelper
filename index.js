@@ -15,7 +15,7 @@ var jsObOpt = {
     rotateStringArray: true,
     selfDefending: true,
     stringArray: true,
-    stringArrayEncoding: 'base64',
+    stringArrayEncoding: ['base64'],
     stringArrayThreshold: 0.75,
     unicodeEscapeSequence: false,
 
